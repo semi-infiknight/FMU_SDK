@@ -7,15 +7,15 @@ We need to download the build tools from here (2017 version as the msbuild is no
 Download and install CMake 3.2 or higher from here.
 
 To build Windows 32 bit versions of all FMUs and simulators of the FMU SDK, double click on `FMUSDK_HOME/install.bat`. This should create fmus in `FMUSDK_HOME/fmu10/fmu and FMUSDK_HOME/fmu20/fmu`, as well as four simulators in `FMUSDK_HOME/fmu10/bin/win32` and `FMUSDK_HOME/fmu20/bin/win32`.
- 
-![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/99d33347-29e0-4ea5-8868-28858eb49691)
+
+![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/10c2edfa-8ed2-4e4d-92f5-9d6403212516)
+
 
 
 To build Windows 64 bit versions of all FMUs and simulators, open a command shell in the FMUSDK_HOME folder and run `install -win64`. This creates additional fmus in the `win64` subdirectories in `FMUSDK_HOME/fmu10/fmu` and `FMUSDK_HOME/fmu20/fmu`, as well as additional simulators in `FMUSDK_HOME/fmu10/bin/win64` and `FMUSDK_HOME/fmu20/bin/win64`. Building these 64 bit versions works also on 32 bit Windows platforms. Execution of the 64 bit simulators and fmus requires however a 64 bit version of Windows.
  
 
-![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/600cc19f-1f4b-4884-aec5-78b38345f4ce)
-
+![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/15ca201e-45e1-40f0-89d1-7b55498e1eb5)
 
 
 Open Terminal and navigate to FMUSDK_HOME
@@ -39,8 +39,8 @@ This will hard-run the msbuild command and build all FMUs into the `dist` folder
 
  
 
- ![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/1a639f16-739e-44a5-bec0-2baeae3da8da)
-![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/4e07de0b-139d-403a-b311-363785253df5)
+ ![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/d10d127e-a888-4030-bac2-d7cb984b59f8)
+![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/c2c0633f-edcd-4d72-8293-348331df7d92)
 
 
 
@@ -58,7 +58,7 @@ cmake --help
 
 
 
-![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/f5833c26-9b8c-4ce3-8a56-ed33328afbe2)
+![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/e178f97c-a8a2-494b-9ff1-28609d6c5413)
 
 
 
@@ -117,8 +117,8 @@ CSV file 'result.csv' written
 ```
 
 
- ![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/1ce10395-6be4-4d29-b996-63d33be362fe)
-![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/2805d28e-6a3a-4f09-99c7-ce3fad4fd3a7)
+![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/fee127a7-dc77-4c1e-9b0b-eecffe132ed0)
+![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/cdfa38bc-668d-446e-815b-25f853f9c3d3)
 
  
 
@@ -127,8 +127,7 @@ To plot the result file, open it, e.g. in a spreadsheet program, such as Microso
 
 
 
-
-![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/c66b809c-a251-48d3-baf8-56de823e10a4)
+![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/76db87c8-8d1b-4f6e-bf9b-65ec0ec8d2b4)
 
 
 
@@ -143,6 +142,6 @@ On Windows, run command build_fmu me xy to build an FMU for model-exchange, or b
 The figure below might help to create or process the XML file modelDescription.xml. It shows all XML elements (without attributes) used in the schema files (XSD) for model exchange and co-simulation 1.0.
 
 
- ![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/b854859e-1b58-4d6d-88a2-699e0953ddc7)
+![image](https://github.com/semi-infiknight/FMU_SDK/assets/97100765/0843e4f4-b594-4589-b008-4b46d27e2741)
 
 
